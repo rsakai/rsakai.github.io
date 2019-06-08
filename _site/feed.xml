@@ -3,10 +3,10 @@
   <channel>
     <title>Ryo Sakai</title>
     <description>Ryo Sakai: Biomedical Data Visualization and Communication Specialist: a consultant, designer, speaker and researcher.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Oct 2017 17:12:29 +0100</pubDate>
-    <lastBuildDate>Sat, 07 Oct 2017 17:12:29 +0100</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 08 Jun 2019 02:51:14 +0100</pubDate>
+    <lastBuildDate>Sat, 08 Jun 2019 02:51:14 +0100</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -25,8 +25,8 @@
 
 </description>
         <pubDate>Sun, 25 Oct 2015 00:00:00 +0100</pubDate>
-        <link>/data%20analysis,%20r/2015/10/25/project-3/</link>
-        <guid isPermaLink="true">/data%20analysis,%20r/2015/10/25/project-3/</guid>
+        <link>http://localhost:4000/data%20analysis,%20r/2015/10/25/project-3/</link>
+        <guid isPermaLink="true">http://localhost:4000/data%20analysis,%20r/2015/10/25/project-3/</guid>
         
         
         <category>Data Analysis, R</category>
@@ -56,8 +56,8 @@
 
 </description>
         <pubDate>Tue, 14 Apr 2015 00:00:00 +0100</pubDate>
-        <link>/visual%20analytics%20tools/2015/04/14/project-5/</link>
-        <guid isPermaLink="true">/visual%20analytics%20tools/2015/04/14/project-5/</guid>
+        <link>http://localhost:4000/visual%20analytics%20tools/2015/04/14/project-5/</link>
+        <guid isPermaLink="true">http://localhost:4000/visual%20analytics%20tools/2015/04/14/project-5/</guid>
         
         
         <category>Visual Analytics Tools</category>
@@ -76,8 +76,8 @@
 &lt;img src=&quot;img/portfolio/tcga/tcga_6.png&quot; alt=&quot;img&quot; title=&quot;Final Render&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 11 Sep 2014 00:00:00 +0100</pubDate>
-        <link>/figure%20design/2014/09/11/project-tcga/</link>
-        <guid isPermaLink="true">/figure%20design/2014/09/11/project-tcga/</guid>
+        <link>http://localhost:4000/figure%20design/2014/09/11/project-tcga/</link>
+        <guid isPermaLink="true">http://localhost:4000/figure%20design/2014/09/11/project-tcga/</guid>
         
         
         <category>Figure Design</category>
@@ -98,8 +98,8 @@
 &lt;p&gt;&lt;img src=&quot;img/portfolio/dendsort_1.png&quot; alt=&quot;img&quot; title=&quot;Interactive Heatmap Visualization Prototype&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 30 Jul 2014 00:00:00 +0100</pubDate>
-        <link>/visual%20analytics%20tools/2014/07/30/project-4/</link>
-        <guid isPermaLink="true">/visual%20analytics%20tools/2014/07/30/project-4/</guid>
+        <link>http://localhost:4000/visual%20analytics%20tools/2014/07/30/project-4/</link>
+        <guid isPermaLink="true">http://localhost:4000/visual%20analytics%20tools/2014/07/30/project-4/</guid>
         
         
         <category>Visual Analytics Tools</category>
@@ -126,8 +126,8 @@
 &lt;p&gt;We received the &lt;strong&gt;Best Artwork Award&lt;/strong&gt; at the ISMB 2013.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Jul 2014 00:00:00 +0100</pubDate>
-        <link>/outreach,%20art/2014/07/15/project-6/</link>
-        <guid isPermaLink="true">/outreach,%20art/2014/07/15/project-6/</guid>
+        <link>http://localhost:4000/outreach,%20art/2014/07/15/project-6/</link>
+        <guid isPermaLink="true">http://localhost:4000/outreach,%20art/2014/07/15/project-6/</guid>
         
         
         <category>Outreach, Art</category>
@@ -141,8 +141,8 @@
 &lt;iframe src=&quot;https://player.vimeo.com/video/93798773&quot; width=&quot;600&quot; height=&quot;375&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sat, 12 Jul 2014 00:00:00 +0100</pubDate>
-        <link>/data%20analysis/2014/07/12/project-1/</link>
-        <guid isPermaLink="true">/data%20analysis/2014/07/12/project-1/</guid>
+        <link>http://localhost:4000/data%20analysis/2014/07/12/project-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/data%20analysis/2014/07/12/project-1/</guid>
         
         
         <category>Data Analysis</category>
@@ -177,8 +177,8 @@ First prototype.
 
 </description>
         <pubDate>Mon, 14 Oct 2013 00:00:00 +0100</pubDate>
-        <link>/visual%20analytics%20tools/2013/10/14/project-2/</link>
-        <guid isPermaLink="true">/visual%20analytics%20tools/2013/10/14/project-2/</guid>
+        <link>http://localhost:4000/visual%20analytics%20tools/2013/10/14/project-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/visual%20analytics%20tools/2013/10/14/project-2/</guid>
         
         
         <category>Visual Analytics Tools</category>
@@ -194,8 +194,8 @@ First prototype.
 &lt;p&gt;&lt;a href=&quot;http://bioinformatics.oxfordjournals.org/content/early/2013/05/08/bioinformatics.btt267.abstract&quot;&gt;Publication&lt;/a&gt;. &lt;a href=&quot;https://bitbucket.org/vda-lab/triovis/wiki/Home&quot;&gt;Git Repository&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 May 2013 00:00:00 +0100</pubDate>
-        <link>/visual%20analytics%20tools/2013/05/05/project-triovis/</link>
-        <guid isPermaLink="true">/visual%20analytics%20tools/2013/05/05/project-triovis/</guid>
+        <link>http://localhost:4000/visual%20analytics%20tools/2013/05/05/project-triovis/</link>
+        <guid isPermaLink="true">http://localhost:4000/visual%20analytics%20tools/2013/05/05/project-triovis/</guid>
         
         
         <category>Visual Analytics Tools</category>
@@ -212,8 +212,8 @@ First prototype.
 &lt;img src=&quot;img/portfolio/horner/version_2.png&quot; alt=&quot;img&quot; title=&quot;Fully rendered version&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Dec 2008 00:00:00 +0000</pubDate>
-        <link>/figure%20design/2008/12/10/project-horner/</link>
-        <guid isPermaLink="true">/figure%20design/2008/12/10/project-horner/</guid>
+        <link>http://localhost:4000/figure%20design/2008/12/10/project-horner/</link>
+        <guid isPermaLink="true">http://localhost:4000/figure%20design/2008/12/10/project-horner/</guid>
         
         
         <category>Figure Design</category>
