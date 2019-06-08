@@ -1,0 +1,58 @@
+---
+title: Sequence Diversity Diagram
+subtitle: Protein Sequence Alignment Sets Visualization
+layout: default
+modal-id: 2
+date: 2013-10-14
+img: sedd.png
+thumbnail: sedd-thumbnail.png
+alt: image-alt
+project-date: July 2013
+client: BioVis
+topic: BioVis, Proteomics
+category: Visual Analytics Tools
+link: bmcproc.biomedcentral.com/articles/10.1186/1753-6561-8-S2-S9
+description: Visualization of multiple sequence alignments sets.
+
+---
+The sequence logo has been the long-standing convention for visualization of multiple sequence alignments of nucleotides or amino acids for the past few decades. Although it effectively communicates the amount of information / conservation present at every position, this visual encoding falls short when the analysis task is to compare between two or more sets of aligned sequences. 
+
+We participated in the BioVis 2013 redesign contest, and our design received an honorable mention.
+
+The paper on Sequence Diversity Diagram is available from [here](http://bmcproc.biomedcentral.com/articles/10.1186/1753-6561-8-S2-S9). 
+
+<iframe src="https://player.vimeo.com/video/118678083" width="600" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+This video demonstrates a visual analytics tool (called Seagull) to include circular representation the mutual information between positions and the Jmol (Java molecular viewer) to explore the highly conserved positions in 3D structures.
+
+
+The below are some data sketches we made during the design process. 
+
+
+![img][original]
+The original Sequence Logo figure.
+![img][sedd_1]
+First prototype.
+![img][sedd_2]
+![img][sedd_3]
+![img][sedd_4]
+![img][sedd_5]
+![img][sedd_6]
+![img][sedd_7]
+![img][sedd_8]
+![img][sedd_9]
+
+
+[original]: img/portfolio/sedd/adk.png "Original Sequence Logo Figures"
+[sedd_1]: img/portfolio/sedd/sedd_1.png "1st prototype"
+[sedd_2]: img/portfolio/sedd/sedd_2.png "2nd prototype"
+[sedd_3]: img/portfolio/sedd/sedd_3.png "3rd prototype"
+[sedd_4]: img/portfolio/sedd/sedd_4.png "4th prototype"
+[sedd_5]: img/portfolio/sedd/sedd_5.png "5th prototype"
+[sedd_6]: img/portfolio/sedd/sedd_6.png "6th prototype"
+[sedd_7]: img/portfolio/sedd/sedd_7.png "7th prototype"
+[sedd_8]: img/portfolio/sedd/sedd_8.png "8th prototype"
+[sedd_9]: img/portfolio/sedd/sedd_9.pdf "Final design"
+
+
+
+

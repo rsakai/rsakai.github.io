@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryo Sakai</title>
+    <description>Ryo Sakai: Biomedical Data Visualization and Communication Specialist: a consultant, designer, speaker and researcher.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 07 Oct 2017 17:12:29 +0100</pubDate>
+    <lastBuildDate>Sat, 07 Oct 2017 17:12:29 +0100</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>VAST Challnge 2015</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;http://vacommunity.org/VAST+Challenge+2015&quot;&gt;VAST Challenge 2015&lt;/a&gt; presented two related mini-challenges and an overall Grand Challenge, and we prepared submissions for each category, and our Mini-Challenge 1 received an award, &lt;strong&gt;Good Combination of Analysis and Visualization to Solve the Challenge&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The majority of analysis was performed in R, and all of the source code, our submissions, as well as reviewers’ comments are available from &lt;a href=&quot;https://bitbucket.org/vda-lab/vast_2015&quot;&gt;this git repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The following videos shows our analysis approaches and some of findings.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/142686647&quot; width=&quot;600&quot; height=&quot;338&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/142687087&quot; width=&quot;600&quot; height=&quot;338&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/142688070&quot; width=&quot;600&quot; height=&quot;338&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+</description>
+        <pubDate>Sun, 25 Oct 2015 00:00:00 +0100</pubDate>
+        <link>/data%20analysis,%20r/2015/10/25/project-3/</link>
+        <guid isPermaLink="true">/data%20analysis,%20r/2015/10/25/project-3/</guid>
+        
+        
+        <category>Data Analysis, R</category>
+        
+      </item>
+    
+      <item>
+        <title>Gapmap</title>
+        <description>&lt;p&gt;One of the common mistakes when interpreting a dendrogram is to assume that two adjacent nodes in the leaf order to be similar. To address this common pitfall, we developed an R package named gapmap.&lt;/p&gt;
+
+&lt;p&gt;For example, if you perform hierarchical clustering based on the Euclidian distance between European cities shown below, it results in the following dendrogram structure.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/portfolio/gapmap_1.png&quot; alt=&quot;img&quot; title=&quot;European Cities&quot; /&gt; 
+&lt;img src=&quot;img/portfolio/gapmap_2.png&quot; alt=&quot;img&quot; title=&quot;Default Dendrogram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you look at nodes of the dendrogram, you find “Stockholm” and “Lisbon” next each other. Just because they end up right next each other, it does not mean they are similar. We know that the distance between “Lisbon” and “Madrid” is actually smaller than that of “Stockholm” and “Lisbon”.&lt;/p&gt;
+
+&lt;p&gt;Because the proximity (Gestalt’s principles) is a strong visual cue, and the distance between the cities is only encoded vertically on dendrograms, it results in this common misinterpretation. To address this point, we encodes the distances between nodes by introducing gaps.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/portfolio/gapmap_3.png&quot; alt=&quot;img&quot; title=&quot;Gapped Dendrogram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a rather simple idea, but it results in a much more intuitive representation of clusters of European cities. This technique can also be extended to cluster heatmap visualizations.&lt;/p&gt;
+
+&lt;p&gt;The naming of “gapmap” was first introduced by Nils Gehlenborg and Bang Wong in the &lt;a href=&quot;http://www.nature.com/nmeth/journal/v9/n3/full/nmeth.1902.html&quot;&gt;Point of view column&lt;/a&gt; in Nature Methods.&lt;/p&gt;
+
+&lt;p&gt;We developed the method in R and published as a package &lt;a href=&quot;http://cran.r-project.org/web/packages/gapmap/index.html&quot;&gt;&lt;strong&gt;gapmap&lt;/strong&gt;&lt;/a&gt; on CRAN. The vignettes for the package is also available. &lt;a href=&quot;http://cran.r-project.org/web/packages/gapmap/vignettes/simple_example.html&quot;&gt;Example 1&lt;/a&gt;, &lt;a href=&quot;http://cran.r-project.org/web/packages/gapmap/vignettes/tcga_example.html&quot;&gt;Example 2&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 14 Apr 2015 00:00:00 +0100</pubDate>
+        <link>/visual%20analytics%20tools/2015/04/14/project-5/</link>
+        <guid isPermaLink="true">/visual%20analytics%20tools/2015/04/14/project-5/</guid>
+        
+        
+        <category>Visual Analytics Tools</category>
+        
+      </item>
+    
+      <item>
+        <title>Anatomical Illustration</title>
+        <description>&lt;p&gt;We worked closely and iteratively with a group of researchers from the TCGA network to prepare a figure for their &lt;a href=&quot;www.nature.com/nature/journal/v513/n7517/full/nature13480.html&quot;&gt;publication&lt;/a&gt;.  The above is the final figure, and the below shows the iterations to refine the anatomical illustration.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/portfolio/tcga/tcga_1.png&quot; alt=&quot;img&quot; title=&quot;Sketch 1&quot; /&gt; 
+&lt;img src=&quot;img/portfolio/tcga/tcga_2.png&quot; alt=&quot;img&quot; title=&quot;Sketch 2&quot; /&gt; 
+&lt;img src=&quot;img/portfolio/tcga/tcga_3.png&quot; alt=&quot;img&quot; title=&quot;Sketch 3&quot; /&gt; 
+&lt;img src=&quot;img/portfolio/tcga/tcga_4.png&quot; alt=&quot;img&quot; title=&quot;Sketch 4&quot; /&gt; 
+&lt;img src=&quot;img/portfolio/tcga/tcga_5.png&quot; alt=&quot;img&quot; title=&quot;Sketch 5&quot; /&gt; 
+&lt;img src=&quot;img/portfolio/tcga/tcga_6.png&quot; alt=&quot;img&quot; title=&quot;Final Render&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 Sep 2014 00:00:00 +0100</pubDate>
+        <link>/figure%20design/2014/09/11/project-tcga/</link>
+        <guid isPermaLink="true">/figure%20design/2014/09/11/project-tcga/</guid>
+        
+        
+        <category>Figure Design</category>
+        
+      </item>
+    
+      <item>
+        <title>Dendsort</title>
+        <description>&lt;p&gt;Dendrograms are graphical representations of binary tree structures resulting from agglomerative hierarchical clustering. In Life Science, a cluster heat map is a widely accepted visualization technique that utilizes the leaf order of a dendrogram to reorder the rows and columns of the data table. The derived linear order is more meaningful than a random order, because it groups similar items together. However, two consecutive items can be quite dissimilar despite proximity in the order. In addition, there are 2^n-1 possible orderings given n input elements as the orientation of clusters at each merge can be flipped without affecting the hierarchical structure. We present two modular leaf ordering methods to encode both the monotonic order in which clusters are merged and the nested cluster relationships more faithfully in the resulting dendrogram structure.&lt;/p&gt;
+
+&lt;p&gt;For more details, please check out &lt;a href=&quot;http://f1000research.com/articles/3-177/v1&quot;&gt;our publicaiton&lt;/a&gt;, &lt;a href=&quot;https://cran.r-project.org/web/packages/dendsort/index.html&quot;&gt;the CRAN repository&lt;/a&gt;, and its &lt;a href=&quot;https://cran.r-project.org/web/packages/dendsort/index.html&quot;&gt;vignettes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is an animation demostrating what the algorithm is doing…&lt;/p&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/89616719&quot; width=&quot;600&quot; height=&quot;246&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The idea for developing this R package came during a research visit to the Shmulevich lab at the Institute for Systems Biology in Seattle. Working closely with research scientists (Vesteinn Thorsson and Sheila Reynolds), we eceloved an interactive heatmap visualization tool as shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/portfolio/dendsort_1.png&quot; alt=&quot;img&quot; title=&quot;Interactive Heatmap Visualization Prototype&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 30 Jul 2014 00:00:00 +0100</pubDate>
+        <link>/visual%20analytics%20tools/2014/07/30/project-4/</link>
+        <guid isPermaLink="true">/visual%20analytics%20tools/2014/07/30/project-4/</guid>
+        
+        
+        <category>Visual Analytics Tools</category>
+        
+      </item>
+    
+      <item>
+        <title>Cosmoplitan Chicken Research Project</title>
+        <description>&lt;p&gt;In collaboration with a Belgian artist, &lt;a href=&quot;http://www.ccrp.be&quot;&gt;Koen Vanmechelen&lt;/a&gt;, we generated data sculptures based on the SNP array data of chickens from the Cosmopolitan Research Project.&lt;/p&gt;
+
+&lt;p&gt;Koen Vanmechelen started the Cosmopolitan Chicken Project to reflect on the issues of (biological, cultural, behavioural, …) diversity in the human population in 90s. Vanmechelen crosses pure-bred chicken lines to create the true “cosmopolitan chicken”. At present, 16 different breeds have been combined in a single hybrid.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/portfolio/ccrp/ccrp_1.png&quot; alt=&quot;img&quot; title=&quot;Cross Breeding of Domesticated Chickens&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Each ring represents a chromosome, thus varying lengthes. Spikes pointing inwards represents homozygous polymorphisms and those pointing outwards represents heterozygous polymorphisms. As a result, inbred chickens have more peaks pointing inwards while crossbred chickens have more peaks pointing outwards.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/portfolio/ccrp/ccrp_2.jpg&quot; alt=&quot;img&quot; title=&quot;Chromosome 1&quot; /&gt; 
+&lt;img src=&quot;img/portfolio/ccrp/ccrp_3.jpg&quot; alt=&quot;img&quot; title=&quot;Data Sculptures&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These sculptures were 3D printed using the Selective Laser Sintering (SLS). Vanmechelen incorporated these data-driven sculptures into his exhibitions at Biennial of Venice and BOZAR Electronic Arts Festival in 2013.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/portfolio/ccrp/ccrp_4.png&quot; alt=&quot;img&quot; title=&quot;Art Exhibition. Photos by Yu Chen.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We received the &lt;strong&gt;Best Artwork Award&lt;/strong&gt; at the ISMB 2013.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Jul 2014 00:00:00 +0100</pubDate>
+        <link>/outreach,%20art/2014/07/15/project-6/</link>
+        <guid isPermaLink="true">/outreach,%20art/2014/07/15/project-6/</guid>
+        
+        
+        <category>Outreach, Art</category>
+        
+      </item>
+    
+      <item>
+        <title>Brain Constellation</title>
+        <description>&lt;p&gt;The BioVis 2014 data contest focused on the domain of resting state functional connectivity networks (rs-fMRI network). Our entry received the &lt;strong&gt;Overall Favorite Data Contest Award&lt;/strong&gt; at BioVis2014 (ISMB 2014). This was a collaborative work with Nico Verbeeck, Jaak Simm and Jan Aerts.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/93798773&quot; width=&quot;600&quot; height=&quot;375&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sat, 12 Jul 2014 00:00:00 +0100</pubDate>
+        <link>/data%20analysis/2014/07/12/project-1/</link>
+        <guid isPermaLink="true">/data%20analysis/2014/07/12/project-1/</guid>
+        
+        
+        <category>Data Analysis</category>
+        
+      </item>
+    
+      <item>
+        <title>Sequence Diversity Diagram</title>
+        <description>&lt;p&gt;The sequence logo has been the long-standing convention for visualization of multiple sequence alignments of nucleotides or amino acids for the past few decades. Although it effectively communicates the amount of information / conservation present at every position, this visual encoding falls short when the analysis task is to compare between two or more sets of aligned sequences.&lt;/p&gt;
+
+&lt;p&gt;We participated in the BioVis 2013 redesign contest, and our design received an honorable mention.&lt;/p&gt;
+
+&lt;p&gt;The paper on Sequence Diversity Diagram is available from &lt;a href=&quot;http://bmcproc.biomedcentral.com/articles/10.1186/1753-6561-8-S2-S9&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/118678083&quot; width=&quot;600&quot; height=&quot;375&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;This video demonstrates a visual analytics tool (called Seagull) to include circular representation the mutual information between positions and the Jmol (Java molecular viewer) to explore the highly conserved positions in 3D structures.&lt;/p&gt;
+
+&lt;p&gt;The below are some data sketches we made during the design process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/portfolio/sedd/adk.png&quot; alt=&quot;img&quot; title=&quot;Original Sequence Logo Figures&quot; /&gt;
+The original Sequence Logo figure.
+&lt;img src=&quot;img/portfolio/sedd/sedd_1.png&quot; alt=&quot;img&quot; title=&quot;1st prototype&quot; /&gt;
+First prototype.
+&lt;img src=&quot;img/portfolio/sedd/sedd_2.png&quot; alt=&quot;img&quot; title=&quot;2nd prototype&quot; /&gt;
+&lt;img src=&quot;img/portfolio/sedd/sedd_3.png&quot; alt=&quot;img&quot; title=&quot;3rd prototype&quot; /&gt;
+&lt;img src=&quot;img/portfolio/sedd/sedd_4.png&quot; alt=&quot;img&quot; title=&quot;4th prototype&quot; /&gt;
+&lt;img src=&quot;img/portfolio/sedd/sedd_5.png&quot; alt=&quot;img&quot; title=&quot;5th prototype&quot; /&gt;
+&lt;img src=&quot;img/portfolio/sedd/sedd_6.png&quot; alt=&quot;img&quot; title=&quot;6th prototype&quot; /&gt;
+&lt;img src=&quot;img/portfolio/sedd/sedd_7.png&quot; alt=&quot;img&quot; title=&quot;7th prototype&quot; /&gt;
+&lt;img src=&quot;img/portfolio/sedd/sedd_8.png&quot; alt=&quot;img&quot; title=&quot;8th prototype&quot; /&gt;
+&lt;img src=&quot;img/portfolio/sedd/sedd_9.pdf&quot; alt=&quot;img&quot; title=&quot;Final design&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 14 Oct 2013 00:00:00 +0100</pubDate>
+        <link>/visual%20analytics%20tools/2013/10/14/project-2/</link>
+        <guid isPermaLink="true">/visual%20analytics%20tools/2013/10/14/project-2/</guid>
+        
+        
+        <category>Visual Analytics Tools</category>
+        
+      </item>
+    
+      <item>
+        <title>TrioVis</title>
+        <description>&lt;p&gt;TrioVis is a visual analytics tool developed for filtering on coverage and variant frequency for genomic variants from exome sequencing of parent-child trios. In TrioVis, the variant data are organised by grouping each variant based on the laws of Mendelian inheritance. Taking three Variant Call Format (VCF) files as input, TrioVis allows the user to test different coverage thresholds (i.e. different levels of stringency), to find the optimal threshold values tailored to their hypotheses, and to gain insights into the global effects of filtering through interaction.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/56494891&quot; width=&quot;700&quot; height=&quot;450&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bioinformatics.oxfordjournals.org/content/early/2013/05/08/bioinformatics.btt267.abstract&quot;&gt;Publication&lt;/a&gt;. &lt;a href=&quot;https://bitbucket.org/vda-lab/triovis/wiki/Home&quot;&gt;Git Repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 May 2013 00:00:00 +0100</pubDate>
+        <link>/visual%20analytics%20tools/2013/05/05/project-triovis/</link>
+        <guid isPermaLink="true">/visual%20analytics%20tools/2013/05/05/project-triovis/</guid>
+        
+        
+        <category>Visual Analytics Tools</category>
+        
+      </item>
+    
+      <item>
+        <title>Horner's Syndrome</title>
+        <description>&lt;p&gt;This illustration was created for the Neuroanatomy module during the MSc in Biomedical Communications.&lt;/p&gt;
+
+&lt;p&gt;The below are two versions of the illustration.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;img/portfolio/horner/version_1.png&quot; alt=&quot;img&quot; title=&quot;Flat version&quot; /&gt; 
+&lt;img src=&quot;img/portfolio/horner/version_2.png&quot; alt=&quot;img&quot; title=&quot;Fully rendered version&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Dec 2008 00:00:00 +0000</pubDate>
+        <link>/figure%20design/2008/12/10/project-horner/</link>
+        <guid isPermaLink="true">/figure%20design/2008/12/10/project-horner/</guid>
+        
+        
+        <category>Figure Design</category>
+        
+      </item>
+    
+  </channel>
+</rss>

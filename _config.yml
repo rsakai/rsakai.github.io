@@ -1,0 +1,70 @@
+# url: https://y7kim.github.io
+# baseurl: /agency-jekyll-theme/
+
+
+# Site settings
+title: Ryo Sakai
+email: rsakai@gmail.com
+description: "Ryo Sakai: Biomedical Data Visualization and Communication Specialist: a consultant, designer, speaker and researcher."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary:  "515151"    #fed136     #text color
+  secondary: "000000"   #fec503   #text highlight  
+  secondary-dark: 333 #gray scale
+  link-text: "F27D30"
+
+# Team names, titles and social links
+# people:
+# - name: Ryo Sakai
+#   pic: 1
+#   position: Lead Designer
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: google-plus
+#       url: #
+#     - title: linkedin
+#       url: #
+
+# - name: Larry Parker
+#   pic: 2
+#   position: Lead Marketer
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: linkedin
+#       url: #
+
+# - name: Diana Petersen
+#   pic: 3
+#   position: Lead Developer
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: google-plus
+#       url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/ryodejaneiro
+  - title: bitbucket 
+    url: http://bitbucket.org/rsakai
+  - title: github
+    url: http://github.com/rsakai
+  - title: linkedin
+    url: https://www.linkedin.com/in/ryosakai
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Bath, United Kingdom
+  # - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty

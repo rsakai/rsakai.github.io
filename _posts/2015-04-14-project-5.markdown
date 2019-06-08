@@ -1,0 +1,36 @@
+---
+title: Gapmap
+subtitle: R package
+layout: default
+modal-id: 5
+date: 2015-04-14
+img: gapmap.png
+thumbnail: gapmap-thumbnail.png
+alt: image-alt
+project-date: April 2015
+client: R
+topic: R, Cluster Heatmap
+category: Visual Analytics Tools
+description: R package for gapped dendrogram and heatmap
+
+---
+
+One of the common mistakes when interpreting a dendrogram is to assume that two adjacent nodes in the leaf order to be similar. To address this common pitfall, we developed an R package named gapmap.
+
+For example, if you perform hierarchical clustering based on the Euclidian distance between European cities shown below, it results in the following dendrogram structure.
+
+![img](img/portfolio/gapmap_1.png "European Cities") 
+![img](img/portfolio/gapmap_2.png "Default Dendrogram") 
+
+If you look at nodes of the dendrogram, you find “Stockholm” and “Lisbon” next each other. Just because they end up right next each other, it does not mean they are similar. We know that the distance between “Lisbon” and “Madrid” is actually smaller than that of “Stockholm” and “Lisbon”. 
+
+Because the proximity (Gestalt's principles) is a strong visual cue, and the distance between the cities is only encoded vertically on dendrograms, it results in this common misinterpretation. To address this point, we encodes the distances between nodes by introducing gaps.
+
+![img](img/portfolio/gapmap_3.png "Gapped Dendrogram") 
+
+This is a rather simple idea, but it results in a much more intuitive representation of clusters of European cities. This technique can also be extended to cluster heatmap visualizations.
+
+The naming of “gapmap” was first introduced by Nils Gehlenborg and Bang Wong in the [Point of view column](http://www.nature.com/nmeth/journal/v9/n3/full/nmeth.1902.html) in Nature Methods.
+
+We developed the method in R and published as a package [**gapmap**](http://cran.r-project.org/web/packages/gapmap/index.html) on CRAN. The vignettes for the package is also available. [Example 1](http://cran.r-project.org/web/packages/gapmap/vignettes/simple_example.html), [Example 2](http://cran.r-project.org/web/packages/gapmap/vignettes/tcga_example.html).
+

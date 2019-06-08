@@ -1,0 +1,31 @@
+---
+title: VAST Challnge 2015
+subtitle: Geospatial Data
+layout: default
+modal-id: 3
+date: 2015-10-25
+img: vast.png
+thumbnail: vast_thumb.png
+alt: image-alt
+project-date: October 2015
+client: IEEE VIS VAST
+topic: VAST, Data Contest
+category: Data Analysis, R
+link: bitbucket.org/vda-lab/vast_2015
+description: The Visual Analytics Science and Technology (VAST) Challenge is an annual contest with the goal of advancing the field of visual analytics through competition.
+
+---
+
+The [VAST Challenge 2015](http://vacommunity.org/VAST+Challenge+2015) presented two related mini-challenges and an overall Grand Challenge, and we prepared submissions for each category, and our Mini-Challenge 1 received an award, **Good Combination of Analysis and Visualization to Solve the Challenge**.
+
+The majority of analysis was performed in R, and all of the source code, our submissions, as well as reviewers' comments are available from [this git repository](https://bitbucket.org/vda-lab/vast_2015). 
+
+The following videos shows our analysis approaches and some of findings. 
+
+<iframe src="https://player.vimeo.com/video/142686647" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<iframe src="https://player.vimeo.com/video/142687087" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<iframe src="https://player.vimeo.com/video/142688070" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+

@@ -1,0 +1,28 @@
+---
+title: Dendsort
+subtitle: R package
+layout: default
+modal-id: 4
+date: 2014-07-30
+img: dendsort.png
+thumbnail: dendsort-thumbnail.png
+alt: image-alt
+project-date: July 2014
+client: R
+topic: R, Hierarchical clustering
+category: Visual Analytics Tools
+link: f1000research.com/articles/3-177/v1
+description: dendsort modular leaf ordering methods for dendrogram representations in R
+---
+
+Dendrograms are graphical representations of binary tree structures resulting from agglomerative hierarchical clustering. In Life Science, a cluster heat map is a widely accepted visualization technique that utilizes the leaf order of a dendrogram to reorder the rows and columns of the data table. The derived linear order is more meaningful than a random order, because it groups similar items together. However, two consecutive items can be quite dissimilar despite proximity in the order. In addition, there are 2^n-1 possible orderings given n input elements as the orientation of clusters at each merge can be flipped without affecting the hierarchical structure. We present two modular leaf ordering methods to encode both the monotonic order in which clusters are merged and the nested cluster relationships more faithfully in the resulting dendrogram structure.
+
+For more details, please check out [our publicaiton](http://f1000research.com/articles/3-177/v1), [the CRAN repository](https://cran.r-project.org/web/packages/dendsort/index.html), and its [vignettes](https://cran.r-project.org/web/packages/dendsort/index.html).
+
+
+This is an animation demostrating what the algorithm is doing...
+<iframe src="https://player.vimeo.com/video/89616719" width="600" height="246" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+The idea for developing this R package came during a research visit to the Shmulevich lab at the Institute for Systems Biology in Seattle. Working closely with research scientists (Vesteinn Thorsson and Sheila Reynolds), we eceloved an interactive heatmap visualization tool as shown below.
+
+![img](img/portfolio/dendsort_1.png "Interactive Heatmap Visualization Prototype") 

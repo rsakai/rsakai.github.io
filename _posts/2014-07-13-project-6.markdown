@@ -1,0 +1,34 @@
+---
+title: Cosmoplitan Chicken Research Project
+subtitle: Data Sculpture
+layout: default
+modal-id: 6
+date: 2014-07-15
+img: ccrp/ccrp.png
+thumbnail: ccrp_thumbnail.png
+alt: image-alt
+project-date: April 2014
+client: Koen Vanmechelen
+topic: Data Sculpture
+category: Outreach, Art
+description: Data Sculptures to represent SNP array data of chickens
+
+---
+In collaboration with a Belgian artist, [Koen Vanmechelen](http://www.ccrp.be), we generated data sculptures based on the SNP array data of chickens from the Cosmopolitan Research Project. 
+
+Koen Vanmechelen started the Cosmopolitan Chicken Project to reflect on the issues of (biological, cultural, behavioural, …) diversity in the human population in 90s. Vanmechelen crosses pure-bred chicken lines to create the true “cosmopolitan chicken”. At present, 16 different breeds have been combined in a single hybrid.
+
+![img](img/portfolio/ccrp/ccrp_1.png "Cross Breeding of Domesticated Chickens") 
+
+Each ring represents a chromosome, thus varying lengthes. Spikes pointing inwards represents homozygous polymorphisms and those pointing outwards represents heterozygous polymorphisms. As a result, inbred chickens have more peaks pointing inwards while crossbred chickens have more peaks pointing outwards.
+
+![img](img/portfolio/ccrp/ccrp_2.jpg "Chromosome 1") 
+![img](img/portfolio/ccrp/ccrp_3.jpg "Data Sculptures") 
+
+
+These sculptures were 3D printed using the Selective Laser Sintering (SLS). Vanmechelen incorporated these data-driven sculptures into his exhibitions at Biennial of Venice and BOZAR Electronic Arts Festival in 2013.
+
+![img](img/portfolio/ccrp/ccrp_4.png "Art Exhibition. Photos by Yu Chen.") 
+
+
+We received the **Best Artwork Award** at the ISMB 2013.
